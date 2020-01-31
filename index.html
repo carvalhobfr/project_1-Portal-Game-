@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Let's play Portal!</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="game-container">
+    <h1>Portal</h1>
+    <section>
+      <canvas id='game' width='720' height='480'></canvas>
+      <img src="./Images/portal-gif first screen.gif" id="wallpaper" />
+    </section>
+  </div>
+  <div class="instructions-container">
+    <div class="controls-container">
+      <h3>Controls</h3>
+      <ul>
+        <li><span class="purple">F: Shot!</li></span>
+        <li><span class="green">A: Aim Portal Left</span></li>
+        <li><span class="purple">W: Aim Portal Up</span></li>
+        <li><span class="green">D: Aim Portal Right</span></li>
+        <li><span class="purple">S: Aim Portal Down</span></li>
+        <li><span class="green">Shift: Switch Portal Color</span></li>
+        <li><span class="purple">Left Arrow: Move Left</span></li>
+        <li><span class="green">Up Arrow: Jump</span></li>
+        <li><span class="purple">Right Arrow:Move Right</span></li>
+      </ul>
+    </div>
+    <div class="tips-container">
+      <h3>Game Tips</h3>
+      <ul>
+        <li>When a portal-projectile strikes a wall, a portal is opened.</li>
+        <br>
+        <li>Shooting an existing portal with the other color of portal will close both.</li>
+        <br>
+        <li>If both a green and purple portal exist, the player teleports from one to the other upon entering either
+          portal.</li>
+        <br>
+        <li>Falling in lava will result in your death.</li>
+        <br>
+        <li>Good Luck! </li>
+      </ul>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

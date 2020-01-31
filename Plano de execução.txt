@@ -1,0 +1,4 @@
+
+Snake como exemplo : https://repl.it/@ironhacklisb/jan20-example-32-game-snake
+
+1-Criar o canvas e 
