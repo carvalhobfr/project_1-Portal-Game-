@@ -12,14 +12,19 @@
     <h1>Portal</h1>
     <section>
       <canvas id='game' width='720' height='480'></canvas>
-      <img src="./Images/portal-gif first screen.gif" id="wallpaper" />
-    </section>
+      <section>
+        <aside>
+          <button id="btn-start">Start</button>
+          <button id="btn-pause">Pause</button>
+        </aside>
+        <img src="./Images/portal-gif first screen.gif" id="wallpaper" />
+      </section>
   </div>
   <div class="instructions-container">
     <div class="controls-container">
       <h3>Controls</h3>
       <ul>
-        <li><span class="purple">F: Shot!</li></span>
+        <!----//<li><span class="purple">F: Shot!</li></span> ---->
         <li><span class="green">A: Aim Portal Left</span></li>
         <li><span class="purple">W: Aim Portal Up</span></li>
         <li><span class="green">D: Aim Portal Right</span></li>
@@ -35,17 +40,19 @@
       <ul>
         <li>When a portal-projectile strikes a wall, a portal is opened.</li>
         <br>
-        <li>Shooting an existing portal with the other color of portal will close both.</li>
-        <br>
         <li>If both a green and purple portal exist, the player teleports from one to the other upon entering either
           portal.</li>
         <br>
-        <li>Falling in lava will result in your death.</li>
+        <li>Falling in spykes will result in your death.</li>
         <br>
         <li>Good Luck! </li>
       </ul>
     </div>
   </div>
+
+
+  <script src="Player.js"></script>
+  <script src="game.js"></script>
   <script src="main.js"></script>
 </body>
 
